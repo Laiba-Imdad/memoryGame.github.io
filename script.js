@@ -119,7 +119,7 @@ for(let i=0;i<16;i++)
     let item=document.createElement('div');
     item.setAttribute('class','gridItem');
     item.setAttribute('id',i);
-    item.style.backgroundImage = "url('images/front.png')";
+    item.style.backgroundImage = "url('Images/front.png')";
     gridContainer.appendChild(item);
 }
 
@@ -139,7 +139,7 @@ function flip()
     if(process==true)
     {
     let index=cardArray[this.id].src;
-    this.style.backgroundImage=`url("images/${index}")`;
+    this.style.backgroundImage=`url("Images/${index}")`;
     flipCount.push(this.id);
     if(flipCount.length===2)
     {
@@ -172,8 +172,8 @@ function checkflip(){
     }
     else
     {
-        document.getElementById(id1).style.backgroundImage="url('images/front.png')";
-        document.getElementById(id2).style.backgroundImage="url('images/front.png')";
+        document.getElementById(id1).style.backgroundImage="url('Images/front.png')";
+        document.getElementById(id2).style.backgroundImage="url('Images/front.png')";
     }
     flipCount=[];
     process=true;
