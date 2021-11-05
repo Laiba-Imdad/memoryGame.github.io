@@ -5,6 +5,7 @@ html,body
 body
 {
   background-image: linear-gradient(to right top, #ffe0f7, #ffdde4, #ffe0c9, #ffebb4, #e3f9b5);  font-family: 'Press Start 2P', cursive;
+  overflow:hidden;
 }
 #gridContainer 
 {
